@@ -1,6 +1,6 @@
 # Web应用上线之前，每个程序员应该了解的技术细节
 
-标签（空格分隔）： Web translate
+标签： Web translate
 
 ---
 
