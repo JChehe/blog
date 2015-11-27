@@ -8,7 +8,6 @@
 最赞回复有 2200+ 顶，虽然大多数人可能都听过其中大部分内容，但应该会有你没有深入了解的内容。一起来看看。
 
 
----
 问题
 ===
 Web 应用上线前，程序员应考虑哪些技术细节呢？ 如果 Jeff Atwood 忘记把 [HttpOnly cookies、sitemaps](http://programmers.stackexchange.com/users/37/jeff-atwood) 和 [cross-site request forgeries](http://www.codinghorror.com/blog/archives/001171.html) 放在同一个网站，那我会把什么重要的东西也会忘掉呢？
