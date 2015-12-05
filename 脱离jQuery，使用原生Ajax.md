@@ -256,6 +256,7 @@ OK！这就没有戏剧性的事情发生了。
 
 
 感谢您的阅读。
+如果你觉得这篇文章对您有帮助或者觉得我翻译得不错，那给我个 [star](https://github.com/JChehe/translation/blob/master/%E8%84%B1%E7%A6%BBjQuery%EF%BC%8C%E4%BD%BF%E7%94%A8%E5%8E%9F%E7%94%9FAjax.md) 吧.
 
   [2]: http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1439883041onreadystate_vs_onload.jpg
   [3]: http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1439883644cache_busting_vanilla_ajax.jpg
