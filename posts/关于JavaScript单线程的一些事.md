@@ -1,6 +1,6 @@
 # 关于JavaScript单线程的一些事
 
-标签（空格分隔）： JavaScript 单线程
+标签： JavaScript 单线程
 
 ---
 
