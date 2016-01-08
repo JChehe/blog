@@ -4,6 +4,8 @@
 
 ---
 
+首发地址：[码农网《细说JavaScript单线程的一些事》](http://www.codeceo.com/article/javascript-threaded.html)
+
 最近被同学问道 JavaScript 单线程的一些事，我竟回答不上。好吧，感觉自己的 JavaScript 白学了。下面是我这几天整理的一些关于 JavaScript 单线程的一些事。
 
 ##首先，说下为什么 JavaScript 是单线程？
