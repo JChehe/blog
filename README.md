@@ -2,6 +2,7 @@
 健超的Blog,主要是原创文章和翻译技术文章。
 
 ##原创文章
+更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> OR <[segmentfault 刘健超_Jc](http://segmentfault.com/blog/jc)>
  - [《JavaScript（ES5）的面向对象精要》读书笔记](https://github.com/JChehe/blog/blob/master/posts/%E3%80%8AJavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%B2%BE%E8%A6%81%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
  - [关于JavaScript单线程的一些事](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8EJavaScript%E5%8D%95%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
 
