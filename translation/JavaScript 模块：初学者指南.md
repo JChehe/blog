@@ -8,7 +8,6 @@
 
 英文出处：[JavaScript Modules: A Beginner’s Guide][3]。欢迎加入翻译组。
 
----
 
 ![此处输入图片的描述][4]
 
