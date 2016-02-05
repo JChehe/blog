@@ -268,6 +268,9 @@ OK，让我们将 `1` 改回 `0`，确保测试通过。
 <iframe height='268' scrolling='no' src='//codepen.io/SitePoint/embed/XXzXLX/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/SitePoint/pen/XXzXLX/'>Unit Testing with Mocha (1)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
+<p data-height="268" data-theme-id="0" data-slug-hash="XXzXLX" data-default-tab="result" data-user="SitePoint" class='codepen'>See the Pen <a href='http://codepen.io/SitePoint/pen/XXzXLX/'>Unit Testing with Mocha (1)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 接着，实现第二个测试...
 
     it('should not add a class which already exists', function() {
@@ -288,6 +291,10 @@ OK，让我们将 `1` 改回 `0`，确保测试通过。
 <iframe height='268' scrolling='no' src='//codepen.io/SitePoint/embed/pgdyzz/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/SitePoint/pen/pgdyzz/'>Unit Testing with Mocha (2)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
+<p data-height="268" data-theme-id="0" data-slug-hash="pgdyzz" data-default-tab="result" data-user="SitePoint" class='codepen'>See the Pen <a href='http://codepen.io/SitePoint/pen/pgdyzz/'>Unit Testing with Mocha (2)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
 但事情没那么简单！该函数的第三种情况我们并没有考虑到，这也是该函数的一个非常严重的 Bug。虽然该函数只有三行代码，但你注意到了吗？
 
 下面为第三种情况编写多一个案例，让这个 Bug 暴露出来。
@@ -305,6 +312,9 @@ OK，让我们将 `1` 改回 `0`，确保测试通过。
 
 <iframe height='268' scrolling='no' src='//codepen.io/SitePoint/embed/oboxve/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/SitePoint/pen/oboxve/'>Unit Testing with Mocha (3)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+<p data-height="268" data-theme-id="0" data-slug-hash="oboxve" data-default-tab="result" data-user="SitePoint" class='codepen'>See the Pen <a href='http://codepen.io/SitePoint/pen/oboxve/'>Unit Testing with Mocha (3)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 修复该函数，让测试通过。
 
@@ -325,6 +335,9 @@ OK，让我们将 `1` 改回 `0`，确保测试通过。
 
 <iframe height='268' scrolling='no' src='//codepen.io/SitePoint/embed/BjmKBG/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/SitePoint/pen/BjmKBG/'>Unit Testing with Mocha (4)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+<p data-height="268" data-theme-id="0" data-slug-hash="BjmKBG" data-default-tab="result" data-user="SitePoint" class='codepen'>See the Pen <a href='http://codepen.io/SitePoint/pen/BjmKBG/'>Unit Testing with Mocha (4)</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ###在 Node 运行测试
 在 Node，由于 `className.js` 和 `classNameTest.js` 在不同文件下，我们需要一种方式将一个文件导出到另一个文件内。而标准的方式是通过 `module.exports`。如果你需要复习相关知识，你可以看看 [Understanding module.exports and exports in Node.js][17]。
