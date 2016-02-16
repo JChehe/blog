@@ -8,6 +8,9 @@
 
 ##翻译文章
 更多翻译文章，可关注[伯乐在线 刘健超-J.c](http://www.jobbole.com/members/q574805242/)
+
+ - [JavaScript 模块【Part 1】：初学者指南](https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%201%E3%80%91%EF%BC%9A%E5%88%9D%E5%AD%A6%E8%80%85%E6%8C%87%E5%8D%97.md)
+ - [JavaScript 模块【Part 2】：模块打包](https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%202%E3%80%91%EF%BC%9A%E6%A8%A1%E5%9D%97%E6%89%93%E5%8C%85.md)
  - [7 个基本的 JS 函数](https://github.com/JChehe/blog/blob/master/translation/7%20%E4%B8%AA%E5%9F%BA%E6%9C%AC%E7%9A%84%20JS%20%E5%87%BD%E6%95%B0%5B%E8%AF%91%5D.md)
  - [Web应用上线之前，每个程序员应该了解的技术细节](https://github.com/JChehe/blog/blob/master/translation/Web%E5%BA%94%E7%94%A8%E4%B8%8A%E7%BA%BF%E4%B9%8B%E5%89%8D%EF%BC%8C%E6%AF%8F%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BA%94%E8%AF%A5%E4%BA%86%E8%A7%A3%E7%9A%84%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82.md)
  - [其实闭包并不高深莫测](https://github.com/JChehe/blog/blob/master/translation/%E5%85%B6%E5%AE%9E%E9%97%AD%E5%8C%85%E5%B9%B6%E4%B8%8D%E9%AB%98%E6%B7%B1%E8%8E%AB%E6%B5%8B.md)
