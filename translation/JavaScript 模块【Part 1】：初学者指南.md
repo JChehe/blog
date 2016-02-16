@@ -1,4 +1,4 @@
-# JavaScript 模块：初学者指南
+# JavaScript 模块【Part 1】：初学者指南
 
 标签： JavaScript translate module
 
@@ -8,8 +8,14 @@
 
 英文出处：[JavaScript Modules: A Beginner’s Guide][3]。欢迎加入翻译组。
 
+---
 
-![此处输入图片的描述][4]
+本文共有两章节：
+
+ 1. [JavaScript 模块：初学者指南][4]
+ 2. [JavaScript 模块：模块打包][5]
+
+![此处输入图片的描述][6]
 
 如果你刚接触 JavaScript，想必已经被“module bundlers vs. module loaders”、“Webpack vs. Browserify”和“AMD vs. CommonJS” 等诸如此类的行业术语所吓到。
 
@@ -36,7 +42,7 @@ JavaScript 模块系统听起来挺吓人的，但明白它是每个 Web 开发�
 
 **2）命名空间：**在 JavaScript 中，如果变量声明在顶级函数的作用域外，那么这些变量都是全局的（意味着，任何地方都能读写它）。因此，造成了常见的“命名空间污染”，从而导致完全无关的代码却共享着全局变量。
 
-无关代码间共享着全局变量是一个严重的 [编程禁忌][5]。
+无关代码间共享着全局变量是一个严重的 [编程禁忌][7]。
 
 我们将在本文后面看到，模块通过为变量创建一个私有空间，从而避免了命名空间的污染。
 
@@ -114,10 +120,10 @@ JavaScript 模块系统听起来挺吓人的，但明白它是每个 Web 开发�
     // 'You failed 2 times.'
     // 'Hello, I am a global variable :)'
 
-这里需要注意的是，包围着匿名函数的小括号是必须的，这是因为当语句以关键字 function 开头时，它会被认为是一个函数声明语句（记住，JavaScript 中不能拥有未命名的函数声明语句）。因此，该括号会创建一个函数表达式代替它。欲知详情，可点击 [这里][6]。
+这里需要注意的是，包围着匿名函数的小括号是必须的，这是因为当语句以关键字 function 开头时，它会被认为是一个函数声明语句（记住，JavaScript 中不能拥有未命名的函数声明语句）。因此，该括号会创建一个函数表达式代替它。欲知详情，可点击 [这里][8]。
 
 ####Example 2：全局导入（Global import ）
-另一个常见的方式是类似于 [jQuery][7] 的全局导入（global import）。该方式与上述的匿名闭包相似，特别之处是传入了一个全局变量作为参数：
+另一个常见的方式是类似于 [jQuery][9] 的全局导入（global import）。该方式与上述的匿名闭包相似，特别之处是传入了一个全局变量作为参数：
 
     (function (globalVariable) {
     
@@ -254,9 +260,9 @@ JavaScript 模块系统听起来挺吓人的，但明白它是每个 Web 开发�
 
 看似有许多知识需要我们吸收，但这只是模块模式（module patterns）的冰山一角。在我学习这方面知识时，发现了下面这些有用的资源：
 
- - [Learning JavaScript Design Patterns][8]： 出自 Addy Osmani，他以极其简洁的方式对模块模式进行详细分析。
- - [Adequately Good by Ben Cherry][9]：一篇通过案例对模块模式的高级用法进行概述的文章。
- - [Blog of Carl Danley][10]：一篇对模块模式进行概述并拥有其它 JavaScript 模式资源的文章。
+ - [Learning JavaScript Design Patterns][10]： 出自 Addy Osmani，他以极其简洁的方式对模块模式进行详细分析。
+ - [Adequately Good by Ben Cherry][11]：一篇通过案例对模块模式的高级用法进行概述的文章。
+ - [Blog of Carl Danley][12]：一篇对模块模式进行概述并拥有其它 JavaScript 模式资源的文章。
 
 ###CommonJS and AMD
 上述所有方法都有一个共同点：使用一个全局变量将其代码封装在一个函数中，从而利用闭包作用域为自身创建一个私有的命名空间。
@@ -382,7 +388,7 @@ UMD 在本质上创建了一种使用二者其一的方式，同时也支持定�
       }
     }));
 
-想获取更多关于 UMD 的案例，可看看 Github 上的 [enlightening repo][11]。
+想获取更多关于 UMD 的案例，可看看 Github 上的 [enlightening repo][13]。
  
 ###原生 JS（Native JS）
 哊！我没把你绕晕了吧？好吧，下面还有**另一种**定义模块的方式。
@@ -393,8 +399,8 @@ UMD 在本质上创建了一种使用二者其一的方式，同时也支持定�
 
 ES6 为导入（importing）导出（exporting）模块带来了很多可能性。下面是很好的资源：
 
- - [jsmodules.io][12]
- - [exploringjs.com][13]
+ - [jsmodules.io][14]
+ - [exploringjs.com][15]
 
 相对于 CommonJS 或 AMD，ES6 模块如何设法提供两全其美的实现方案：简洁紧凑的声明式语法和异步加载，另外能更好地支持循环依赖。
 
@@ -481,12 +487,14 @@ ES6 为导入（importing）导出（exporting）模块带来了很多可能性�
   [2]: http://www.jobbole.com/members/q574805242
   [3]: https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
   [4]: http://jbcdn2.b0.upaiyun.com/2016/02/e36f4ad51fef734fae6cdf155b053239.jpeg
-  [5]: http://c2.com/cgi/wiki?GlobalVariablesAreBad
-  [6]: http://stackoverflow.com/questions/1634268/explain-javascripts-encapsulated-anonymous-function-syntax
-  [7]: https://github.com/jquery/jquery/tree/master/src
-  [8]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
-  [9]: http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
-  [10]: https://carldanley.com/js-module-pattern/
-  [11]: https://github.com/umdjs/umd
-  [12]: http://jsmodules.io/cjs.html
-  [13]: http://exploringjs.com/es6/ch_modules.html
+  [5]: https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%202%E3%80%91%EF%BC%9A%E6%A8%A1%E5%9D%97%E6%89%93%E5%8C%85.md
+  [6]: http://jbcdn2.b0.upaiyun.com/2016/02/e36f4ad51fef734fae6cdf155b053239.jpeg
+  [7]: http://c2.com/cgi/wiki?GlobalVariablesAreBad
+  [8]: http://stackoverflow.com/questions/1634268/explain-javascripts-encapsulated-anonymous-function-syntax
+  [9]: https://github.com/jquery/jquery/tree/master/src
+  [10]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
+  [11]: http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
+  [12]: https://carldanley.com/js-module-pattern/
+  [13]: https://github.com/umdjs/umd
+  [14]: http://jsmodules.io/cjs.html
+  [15]: http://exploringjs.com/es6/ch_modules.html
