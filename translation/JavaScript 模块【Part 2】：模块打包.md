@@ -348,4 +348,4 @@ PS：如果你对 HTTP/2 与 HTTP/1.x 的差异感兴趣，可看看这份 [优�
   [37]: https://http2.github.io/faq/#what-are-the-key-differences-to-http1x
   [38]: https://http2.github.io/faq/#what-are-the-key-differences-to-http1x
   [39]: https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.y8hs0nsne
-  [40]: https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%EF%BC%9A%E5%88%9D%E5%AD%A6%E8%80%85%E6%8C%87%E5%8D%97.md
+  [40]: https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%201%E3%80%91%EF%BC%9A%E5%88%9D%E5%AD%A6%E8%80%85%E6%8C%87%E5%8D%97.md
