@@ -486,7 +486,7 @@ ES6 为导入（importing）导出（exporting）模块带来了很多可能性�
   [1]: http://web.jobbole.com/
   [2]: http://www.jobbole.com/members/q574805242
   [3]: https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
-  [4]: http://jbcdn2.b0.upaiyun.com/2016/02/e36f4ad51fef734fae6cdf155b053239.jpeg
+  [4]: https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%201%E3%80%91%EF%BC%9A%E5%88%9D%E5%AD%A6%E8%80%85%E6%8C%87%E5%8D%97.md
   [5]: https://github.com/JChehe/blog/blob/master/translation/JavaScript%20%E6%A8%A1%E5%9D%97%E3%80%90Part%202%E3%80%91%EF%BC%9A%E6%A8%A1%E5%9D%97%E6%89%93%E5%8C%85.md
   [6]: http://jbcdn2.b0.upaiyun.com/2016/02/e36f4ad51fef734fae6cdf155b053239.jpeg
   [7]: http://c2.com/cgi/wiki?GlobalVariablesAreBad
