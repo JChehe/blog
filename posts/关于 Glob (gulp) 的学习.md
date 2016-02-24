@@ -130,4 +130,4 @@
 
 若发现文中有任何错误，或有任何好的建议，欢迎评论。
 
-GitHub：
+GitHub：[关于 Glob (gulp) 的学习](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8E%20Glob%20%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
