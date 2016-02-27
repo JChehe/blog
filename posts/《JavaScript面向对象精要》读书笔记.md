@@ -715,7 +715,7 @@ Object.getPrototypeOf() 方法可读取 [[Prototype]] 属性的值。
     
     console.log(prototype === Object.prototype); // true
 
-> 大部分JavaScript引擎在所有对象上都支持一个名为 `_proto_` 的属性。该属性使你可以直接读写 [[Prototype]] 属性。
+> 大部分JavaScript引擎在所有对象上都支持一个名为 `__proto__` 的属性。该属性使你可以直接读写 [[Prototype]] 属性。
 
 isPrototypeOf() 方法会检查某个对象是否是另一个对象的原型对象，该方法包含在所有对象中。
 
@@ -740,7 +740,7 @@ isPrototypeOf() 方法会检查某个对象是否是另一个对象的原型对�
 
 > MDN：delete 操作符不能删除的属性有：①显式声明的全局变量不能被删除,该属性不可配置（not configurable）； ②内置对象的内置属性不能被删除； ③不能删除一个对象从原型继承而来的属性(不过你可以从原型上直接删掉它)。
 
-一个重要概念：无法给一个对象的原型属性赋值。**我认为是无法直接添加吧，在chrome和Edge中，都无法读取`_proto_`属性**，但我们可以通过 `obj.constructor.prototype.sayHi = function(){console.log("Hi!")}` 向原型对象添加属性。
+一个重要概念：无法给一个对象的原型属性赋值。但我们可以通过 `obj.constructor.prototype.sayHi = function(){console.log("Hi!")}` 向原型对象添加属性。
 
 ![此处输入图片的描述][4]
 （图片中间可以看出，为对象obj添加的toString属性代替了原型属性）
@@ -815,7 +815,7 @@ isPrototypeOf() 方法会检查某个对象是否是另一个对象的原型对�
     }
 
 构造函数、原型对象和对象实例之间的关系最有趣的一方面也许是：
-对象实例和构造函数直接没有直接联系。（对象实例只有 `[[Prototype]]` 属性(自己测试时不能读取（`_proto_`）)指向其相应的原型对象，而原型对象的 `constructor` 属性指向构造函数，而构造函数的 `prototype` 指向原型对象）
+对象实例和构造函数直接没有直接联系。（对象实例只有 `[[Prototype]]` 属性指向其相应的原型对象，而原型对象的 `constructor` 属性指向构造函数，而构造函数的 `prototype` 指向原型对象）
 ![obj_constructor_prototype][5]
 
 ####4.2.3 改变原型对象
