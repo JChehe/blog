@@ -1,5 +1,9 @@
 ##jQuery 的 attr 与 prop 的区别
 
+标签： JavaScript jQuery
+
+---
+
 先提出问题：对于 checked 这类值是 true/false 的属性，用 jQuery 的 attr 或 prop 方法进行 读取或设置值是有区别的。
 
 在看 jQuery 文档前，我们先看看 attribute 与 property 是什么：
@@ -86,6 +90,9 @@ attributes 与 properties 之间的差异在特定情况下会变得尤为重要
 jQuery API Documentation：http://api.jquery.com/prop/  
 Properties and Attributrs in HTML：http://stackoverflow.com/questions/6003819/properties-and-attributes-in-html
 
+------
+
+Github 地址: [jQuery 的 attr 与 prop 的区别](https://github.com/JChehe/blog/blob/master/posts/jQuery%20%E7%9A%84%20attr%20%E4%B8%8E%20prop%20%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 
   [1]: https://www.w3.org/TR/html5/infrastructure.html#reflect
   [2]: http://api.jquery.com/prop/
