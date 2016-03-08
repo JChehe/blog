@@ -1,6 +1,10 @@
+##jQuery 的 attr 与 prop 的区别
+
 先提出问题：对于 checked 这类值是 true/false 的属性，用 jQuery 的 attr 或 prop 方法进行 读取或设置值是有区别的。
 
 在看 jQuery 文档前，我们先看看 attribute 与 property 是什么：
+
+###先搞懂 attribute 与 property
 
 当编写 HTML 源码时，你能在 HTML 元素里定义 attributes。然后，一旦浏览器解析你的代码，该 HTML 元素相应的 DOM 节点就会被创建。该节点是一个对象，因此它就拥有 properties。
 因此，我们知道：attributes 是 HTML 元素（标签）的属性，而 properties 是 DOM 对象的属性。
@@ -40,7 +44,7 @@
 有几个 properties 是直接反映它们 attribute（rel、id），而有一些则用稍微不同的名字进行直接映射（`htmlFor` 映射 `for` attribute，`className` 映射 `class` attribute）。很多 property 所映射的 attribute 是带有限制/变动的（src、href、disabled、multiple）。该 [规范][1] 涵盖了各种各样的映射。
 
 
-----------
+###再看看 attr 与 prop 的区别
 
 
 上述能让我们理清了 attribute 与 property 之间的区别，下面根据 [jQuery 文档][2] 对 attr() 与 prop() 方法进行比较：
