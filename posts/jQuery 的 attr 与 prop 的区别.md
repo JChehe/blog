@@ -48,7 +48,7 @@
 有几个 properties 是直接反映它们 attribute（rel、id），而有一些则用稍微不同的名字进行直接映射（`htmlFor` 映射 `for` attribute，`className` 映射 `class` attribute）。很多 property 所映射的 attribute 是带有限制/变动的（src、href、disabled、multiple）。该 [规范][1] 涵盖了各种各样的映射。
 
 
-###再看看 attr 与 prop 的区别
+###再看看 attr() 与 prop() 的区别
 
 
 上述能让我们理清了 attribute 与 property 之间的区别，下面根据 [jQuery 文档][2] 对 attr() 与 prop() 方法进行比较：
