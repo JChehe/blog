@@ -7,6 +7,8 @@
  - [关于 Glob(gulp) 的学习](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8E%20Glob%20(gulp)%20%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
  - [《JavaScript（ES5）的面向对象精要》读书笔记](https://github.com/JChehe/blog/blob/master/posts/%E3%80%8AJavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%B2%BE%E8%A6%81%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
  - [关于JavaScript单线程的一些事](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8EJavaScript%E5%8D%95%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
+ - [再次阅读《精通CSS-高级Web标准解决方案（第二版）》](https://github.com/JChehe/blog/blob/master/posts/%E5%86%8D%E6%AC%A1%E9%98%85%E8%AF%BB%E3%80%8A%E7%B2%BE%E9%80%9ACSS-%E9%AB%98%E7%BA%A7Web%E6%A0%87%E5%87%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89%E3%80%8B.md)
+ - [实现类似 QQ音乐网页版 的单页面总结](https://github.com/JChehe/blog/blob/master/posts/%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%BC%BC%20QQ%E9%9F%B3%E4%B9%90%E7%BD%91%E9%A1%B5%E7%89%88%20%E7%9A%84%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%80%BB%E7%BB%93.md)
 
 ##翻译文章
 更多翻译文章，可关注[伯乐在线 刘健超-J.c](http://www.jobbole.com/members/q574805242/)
