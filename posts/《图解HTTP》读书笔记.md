@@ -556,7 +556,9 @@ HTTP不具备必要的安全功能，就拿远程登录时会用到的SSH协议�
 
 “自问自答”仅是我个人的理解，如果你有不同的观点，可以一起讨论。当然，如果你有认为不错的问答，可以联系我，我会不断完善。
 
-Github地址：
+---
+
+Github地址：[《图解HTTP》读书笔记][24]
 
 
   [1]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-9.jpg
@@ -582,3 +584,4 @@ Github地址：
   [21]: http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html
   [22]: http://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers/417184
   [23]: http://stackoverflow.com/questions/812925/what-is-the-maximum-possible-length-of-a-query-string
+  [24]: https://github.com/JChehe/blog/blob/master/posts/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md
