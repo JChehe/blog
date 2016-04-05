@@ -1,5 +1,7 @@
 # blog
 健超的Blog,主要是原创文章和翻译技术文章。
+###真的要毕业了，想找一份【Web前端开发】工作。希望有大神相中我（认真的）。   
+前端，在路上..
 
 ##原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](http://segmentfault.com/blog/jc)>
