@@ -1,6 +1,6 @@
 # 如何成为一个JavaScript 大牛？【译】
 
-标签： JavaScript translate
+标签： JavaScript translation
 
 ---
 
