@@ -3,6 +3,8 @@
 ###真的要毕业了，想找一份【Web前端开发】工作。希望有大神相中我（认真的）。   
 前端，在路上..
 
+http://jchehe.github.io/resume/
+
 ##原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](http://segmentfault.com/blog/jc)>
  - [《图解HTTP》读书笔记](https://github.com/JChehe/blog/blob/master/posts/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
