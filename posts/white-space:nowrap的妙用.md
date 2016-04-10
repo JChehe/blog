@@ -75,7 +75,7 @@ IE5上的效果，IE6应该也一样。
 如果还有其它想法，欢迎大家在评论处告诉我哦。
 
 [github-JChehe][8]。
-
+[静态博客][9] <- 小心这心机婊
     
 
 
@@ -87,3 +87,4 @@ IE5上的效果，IE6应该也一样。
   [6]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-GIF.gif
   [7]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-GIF-IE56.gif
   [8]: https://github.com/JChehe/blog
+  [9]: http://jchehe.github.io/resume/
