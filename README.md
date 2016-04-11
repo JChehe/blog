@@ -1,9 +1,13 @@
+一个拿着百度糯米和美团offer的网友对我说：我接触那么多大学生实习生 你基础河很好的。   没错，他竟然打多了一个字（河）  
+所以，我是不会让你失望的，甚至是惊喜。  
+尽管我不善于表达，但我清楚我心中所想。  
+【Web前端开发】不在意工资，能有好的成长环境就足够了。  
+http://jchehe.github.io/resume/
+
 # blog
 健超的Blog,主要是原创文章和翻译技术文章。
-###真的要毕业了，想找一份【Web前端开发】工作。希望有大神相中我（认真的）。   
-前端，在路上..
 
-http://jchehe.github.io/resume/
+
 
 ##原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](http://segmentfault.com/blog/jc)>
