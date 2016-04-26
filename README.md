@@ -11,6 +11,7 @@ http://jchehe.github.io/resume/
 
 ##原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](http://segmentfault.com/blog/jc)>
+ - [《JavaScript模式》读书笔记](https://github.com/JChehe/blog/blob/master/posts/%E3%80%8AJavaScript%E6%A8%A1%E5%BC%8F%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
  - [white-space:nowrap 的妙用](https://github.com/JChehe/blog/blob/master/posts/white-space:nowrap%E7%9A%84%E5%A6%99%E7%94%A8.md)
  - [《图解HTTP》读书笔记](https://github.com/JChehe/blog/blob/master/posts/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
  - [jQuery 的 attr 与 prop 的区别](https://github.com/JChehe/blog/blob/master/posts/jQuery%20%E7%9A%84%20attr%20%E4%B8%8E%20prop%20%E7%9A%84%E5%8C%BA%E5%88%AB.md)
