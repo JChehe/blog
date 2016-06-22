@@ -1,7 +1,4 @@
-【Web前端开发】不在意工资，能有好的成长环境就足够了。:basketball:  
-http://jchehe.github.io/resume/
-
-# blog
+ blog
 健超的Blog,主要是原创文章和翻译技术文章。
 
 ## 搭建了静态博客：http://jchehe.github.io/
