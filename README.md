@@ -1,4 +1,4 @@
-### 【此库作为备份】，工作后的文章都放在 [issues](https://github.com/JChehe/blog/issues) 中了，更多可关注 [凹凸实验室](https://aotu.io/) 和 <[segmentfault 刘健超_Jc](https://segmentfault.com/u/jc)>。
+### 【此库作为备份】，更多可关注 [凹凸实验室](https://aotu.io/) 和 <[segmentfault 刘健超_Jc](https://segmentfault.com/u/jc)>。当文章稳定后会放在 [issues](https://github.com/JChehe/blog/issues) 中作为备份。
 
 
 --- 
