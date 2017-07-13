@@ -6,7 +6,7 @@
 
 我记得早期的 JavaScript ，要完成任何事情几乎都绕不开一些简单的函数，因为浏览器提供商实现功能有所差异，而且不只是边缘功能，基础功能也一样，如 `addEventListener` 和 `attachEvent`。虽然时代变了，但仍有一些函数是每个开发者都应该掌握的，以便于完成某些功能和提高性能。
 
-###[debounce](http://davidwalsh.name/javascript-debounce-function)
+### [debounce](http://davidwalsh.name/javascript-debounce-function)
 
 对于高耗能事件，debounce 函数是一种不错解决方案。如果你不对 `scroll`、`resize`、和 `key*` 事件使用 debounce  函数，那么你几乎等同于犯了错误。下面的 `debounce` 函数能让你的代码保持高效：
 
@@ -33,7 +33,7 @@
     window.addEventListener('resize', myEfficientFn);
 `debounce` 函数不允许回调函数在指定时间内执行多于一次。当为一个会频繁触发的事件分配一个回调函数时，该函数显得尤为重要。
 
-###[poll](http://davidwalsh.name/javascript-polling)
+### [poll](http://davidwalsh.name/javascript-polling)
 尽管上面我提及了 `debounce` 函数，但如果事件不存在时，你就不能插入一个事件以判断所需的状态，那么就需要每隔一段时间去检查状态是否达到你的要求。
 
     function poll(fn, callback, errback, timeout, interval) {
@@ -70,7 +70,7 @@
     );
 Polling 在 web 中已被应用很长时间了，并在将来仍会被使用。
 
-###[once](http://davidwalsh.name/javascript-once)
+### [once](http://davidwalsh.name/javascript-once)
 有时候，你想让一个给定的功能只发生一次，类似于 `onload` 事件。下面的代码提供了你所说的功能：
 
     function once(fn, context) {
@@ -95,7 +95,7 @@ Polling 在 web 中已被应用很长时间了，并在将来仍会被使用。
     canOnlyFireOnce(); // // 没有执行指定函数
 `once` 函数确保给定函数只能被调用一次，从而防止重复初始化！
 
-###[getAbsoluteUrl](http://davidwalsh.name/get-absolute-url)
+### [getAbsoluteUrl](http://davidwalsh.name/get-absolute-url)
 从一个字符串变量得到一个绝对 URL，并不是你想象中这么简单。对于某些 `URL` 构造器，如果你不提供必要的参数就会出问题（而有时候你真的不知道提供什么参数）。下面有一个优雅的技巧，只需要你传递一个字符串就能得到相应的绝对 URL。
     
     var getAbsoluteUrl = (function() {
@@ -113,7 +113,7 @@ Polling 在 web 中已被应用很长时间了，并在将来仍会被使用。
 
 a 元素的 `href` 处理和 url 处理看似无意义，而 return 语句返回了一个可靠的绝对 URL。
 
-###[isNative](http://davidwalsh.name/detect-native-function)
+### [isNative](http://davidwalsh.name/detect-native-function)
 如果你想知道一个指定函数是否是原生的，或者能不能通过声明来覆盖它。下面这段便于使用的代码能给你答案：
 
     ;(function() {
@@ -157,7 +157,7 @@ a 元素的 `href` 处理和 url 处理看似无意义，而 return 语句返回
     }());
 这个函数虽不完美，但它能完成任务！
 
-###[insertRule](http://davidwalsh.name/add-rules-stylesheets)
+### [insertRule](http://davidwalsh.name/add-rules-stylesheets)
 我们都知道能通过选择器（通过 `document.querySelectorAll` ）获取一个 NodeList ，并可为每个元素设置样式，但有什么更高效的方法为选择器设置样式呢（例如你可以在样式表里完成）：
 
     var sheet = (function() {
@@ -181,7 +181,7 @@ a 元素的 `href` 处理和 url 处理看似无意义，而 return 语句返回
     sheet.insertRule("header { float: left; opacity: 0.8; }", 1);
 这对于一个动态且重度依赖 AJAX 的网站来说是特别有用的。如果你为一个选择器设置样式，那么你就不需要为每个匹配到的元素都设置样式（现在或将来）。
 
-###[matchesSelector](http://davidwalsh.name/element-matches-selector)
+### [matchesSelector](http://davidwalsh.name/element-matches-selector)
 我们经常会在进行下一步操作前进行输入校验，以确保是一个可靠值，或确保表单数据是有效的，等等。但我们平时是怎么确保一个元素是否有资格进行进一步操作呢？如果一个元素有给定匹配的选择器，那么你可以使用 `matchesSelector` 函数来校验：
 
     function matchesSelector(el, selector) {
