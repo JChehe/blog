@@ -10,11 +10,11 @@
 
 ---
 
-##Glob
+## Glob
 使用 shell 里的 patterns 匹配文件，如 `*` 等。
 
-##用法
-###用 npm 安装 glob
+## 用法
+### 用 npm 安装 glob
 
     npm i glob
     
@@ -30,7 +30,7 @@
       // er 是一个 error 对象或 null。
     })
  
-##Glob 初级
+## Glob 初级
 "Globs" 是你通过在命令行输入字符后完成某些操作时的 pattern。如 `ls *.js`，或将 `build/*` 放在 `.gitignore`。
 
 在解析路径段的 patterns 前，braced sections 会展开为一个集合。braced sections 以 `{` 开头，`}` 为结尾，中间部分以英文逗号 `,` 分隔。braced sections 可以含有斜杠符号 `/`。因此，`a{/b/c,bcd}` 会展开为 `a/b/c` 和 `abcd`。
@@ -110,17 +110,17 @@
         });
 匹配 js 目录下所有js文件，如 js/a.js 或 js/a/b/c/d.js。
     
-##Dots(即 `.`)
+## Dots(即 `.`)
 如果文件或目录的某路径段以 `.` 作为首字符，那么该路径段不会符合任何  glob pattern，除非该 pattern 的相应路径段同样以 `.` 作为首字符。
 
 例如，pattern `a/.*/c` 会匹配文件 `a/.b/c`，而 pattern `a/*/c` 则不会匹配该文件，因为 `*` 不会匹配以 `.` 字符开头的文件。
 
 可通过在 options 设置 `dot: true`，让 glob 将 `.` 视为普通字符。
 
-##Basename 匹配
+## Basename 匹配
 如果在 options 设置 `matchBase: true`，且 pattern 不含有 `/`，那么将会寻找任何匹配 basename 的文件，即在当前路径下的文件树进行搜索。例如，`*.js` 会匹配 `test/simple.basic.js`。
 
-##空集
+## 空集
 如果不匹配任何文件，则会返回空数组。这点与 shell 不同，shell 会返回自身 pattern。
 
     $echo echo a*s*d*f
