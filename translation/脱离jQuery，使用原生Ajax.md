@@ -42,7 +42,7 @@
 
 对于想学习更多关于 Ajax 基础知识的同学，可关注 MDN 的这篇[教程](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)。
 
-###到底选择 jQuery 还是选择原生 JavaScript 呢？
+### 到底选择 jQuery 还是选择原生 JavaScript 呢？
 嗯，好消息是上述代码兼容所有最新的主流浏览器。而坏消息是使用起来十分复杂。的确令人恶心！我已经苦思出一个优雅的解决方案了。
 
 如果使用 jQuery，则能把上述代码压缩成这样：
@@ -95,7 +95,7 @@
 `render` 函数异步读取被请求文件的内容。该函数向被作为回调函数的 `httpHandler` 传递一个引用。
 `httpHandler` 函数检测 error 对象是否存在（如：被请求文件不能被打开，该对象就会存在）。另外，指定类型是好的做法，那么服务器返回的文件内容就会拥有适当的 HTTP 状态码（status code）和内容类型（content type）。
 
-###测试 API
+### 测试 API
 让我们为后端API编写一些单元测试，从而确保它们能正确运行。对于这类测试，我会请求 [supertest](https://www.npmjs.com/package/supertest) 和 [mocha](https://www.npmjs.com/package/mocha)帮助。
 
     // test/app.request.js
@@ -120,7 +120,7 @@
     });
 这些测试确保了我们的 app 对于不同请求能返回正确的内容类型(content type)和HTTP 状态码（status code）。一旦你安装了这些依赖，那么你就能使用命令 `npm test` 运行这些测试。
 
-###界面
+### 界面
 现在，让我们看看用户界面的 HTML 代码：
 
     // views/index.html
@@ -129,7 +129,7 @@
     <p id="results"></p>
 上述的 HTML 代码看起来很简洁。没错，正如你所看到的，所有令人兴奋的事情都发生在 JavaScript。
 
-###onreadystate vs onload
+### onreadystate vs onload
 如果你看过任何一本权威的、关于 Ajax 的书，你可能会发现 `onreadystate` 在书上随处可见。该回调函数需要通过嵌套的 ifs 或多个 case 语句完成，这使得难以记忆。让我们再次回顾 `onreadystate` 和  `onload` 事件。
 
     (function() {
@@ -171,7 +171,7 @@
 
  `onreadystatechange` 事件能在请求的任何过程中被触发。如能在每个请求前、请求末。但根据文档，`onload` 事件只会在请求成功后触发。又因为 `onload` 事件是一个常见的 API，所以你能在很短时间内掌握它。`onreadystatechange` 事件可作为后备（原文是backwards compatible 向后兼容？）方案。而 `onload` 事件应该是你的首选。而且 `onload` 事件与 jQuery 的 `success` 回调函数类似，难道不是吗？
  
- ###设置请求头部
+ ### 设置请求头部
  jQuery 私下帮你设置请求头部了，所以后端能检测这是一个 Ajax 请求。一般来说，后端并不关心 GET 请求是从哪而来，只要能返回正确的响应即可。当你相用同样的 web API 返回 Ajax 或 HTML 时，这就派上用场了。让我们看看如何通过原生 JavaScript 设置请求头部：
  
     var oReq = new XMLHttpRequest();
@@ -199,7 +199,7 @@
 
 我们能利用 Node.js 为我们提供的 headers 对象进行相应检测。而唯一需要注意的地方是：以小写字母读取它们。
 
-###响应类型
+### 响应类型
 你可能想知道为什么 `responseText` 返回的是字符串，而不是能被我们操作的普通 JSON（Plain Old JSON）。原来是因为我没有设置合适的 `responseType` 属性。该 Ajax 属性会很好地告诉前端 API 所期望服务器返回的数据类型。所以，我们要好好利用它：
 
     var oReq = new XMLHttpRequest();
@@ -224,7 +224,7 @@
         }
     };
     
-###避免缓存
+### 避免缓存
 对 Ajax 请求进行缓存的浏览器特性都快被我们忘记了。例如，IE 就默认是这样。我还曾因此导致我的 Ajax 不执行而苦恼了几个小时。幸运的是，jQuery 默认清除浏览器缓存。当然，你能在纯 Ajax 达到该目的，而且相当简单：
 
     var bustCache = '?' + new Date().getTime();
@@ -235,7 +235,7 @@
 
 OK！这就没有戏剧性的事情发生了。
 
-###总结
+### 总结
 我希望你能喜欢这篇关于原生 Ajax 的文章。Ajax 在过去某段时间里，被人们看作是一种可怕的怪兽。而事实上，我们已经覆盖了原生 Ajax 所有基础知识。
 
 
