@@ -1,11 +1,10 @@
-### 【此库作为备份】，更多可关注 [凹凸实验室](https://aotu.io/) 和 <[segmentfault 刘健超_Jc](https://segmentfault.com/u/jc)>。当文章稳定后会放在 [issues](https://github.com/JChehe/blog/issues) 中作为备份。
+### 【此库作为备份】，更多可关注 [凹凸实验室](https://aotu.io/)。当文章稳定后会放在 [issues](https://github.com/JChehe/blog/issues) 中作为备份。
 
 
 --- 
 
 ## 之前的记录
 健超的 Blog,主要是原创文章和翻译技术文章。
-## 【已停更】搭建了静态博客：http://jchehe.github.io/
 
 ## 原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](https://segmentfault.com/u/jc)>
