@@ -1,10 +1,43 @@
-### 【此库作为备份】，更多可关注 [凹凸实验室](https://aotu.io/)。当文章稳定后会放在 [issues](https://github.com/JChehe/blog/issues) 中作为备份。
+> 更多精彩文章会首发于 [凹凸实验室](https://aotu.io/) 📣📣📣
 
+## 新博文（存档在 issues 中）
+
+ - [【译】探索基于 WebGL 的动画与交互（案例学习）](https://github.com/JChehe/blog/issues/11)
+ - [《Web API 的设计与开发》读书笔记](https://github.com/JChehe/blog/issues/10)
+ - [实现一个简单但有趣的AR效果（Web）](https://github.com/JChehe/blog/issues/9)
+ - [“等一下，我碰！”——常见的2D碰撞检测](https://github.com/JChehe/blog/issues/8)
+ - [XCel 项目总结 - Electron 与 Vue 的性能优化](https://github.com/JChehe/blog/issues/7)
+ - [
+【译】Electron 自动更新的完整教程（Windows 和 OSX）](https://github.com/JChehe/blog/issues/6)
+ - [【译】Electron 的本质](https://github.com/JChehe/blog/issues/5)
+ - [我的第一次移动端页面制作 — 总结与思考](https://github.com/JChehe/blog/issues/4)
+ - [浅谈 WebVR](https://github.com/JChehe/blog/issues/3)
+ - [CSS 3D Panorama - 淘宝造物节技术剖析](https://github.com/JChehe/blog/issues/2)
+
+## 关于本博客
+
+之前在伯乐在线翻译了 28 篇文章，择取部分存在该博客中。另外，平时也偶尔写一些技术文章。
+
+要说翻译的好处，主要有三点：
+
+1. 锻炼英语阅读能力（尽管英语能力依然很水）。
+2. 伯乐在线对译文的格式和内容要求严格，有利于形成良好的写作习惯。
+3. 伯乐在线每月前 5 名有赠书名额（之前的奖励）。
+
+要说自己写技术文章的好处，主要有 2 点：
+
+ 1. 记录和总结，方便自己回顾的同时，为社区做出微薄贡献。
+ 2. ...
+ 
+两者的共同好处：
+
+ 1. 为自己和读者负责，尽可能保证内容的正确性。在这过程中，需要不断搜索资料和验证，提升能力。
+ 2. 提升影响力？？？
 
 --- 
 
 ## 之前的记录
-健超的 Blog,主要是原创文章和翻译技术文章。
+健超的 Blog，主要是原创文章和翻译技术文章。
 
 ## 原创文章
 更多原创文章，可关注 <[博客园 刘健超-J.c](http://www.cnblogs.com/Jccc/)> or <[segmentfault 刘健超_Jc](https://segmentfault.com/u/jc)>
