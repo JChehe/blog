@@ -2,6 +2,7 @@
 
 ## 新博文（存档在 issues 中）
 
+ - [【译】隧道动画](https://github.com/JChehe/blog/issues/15)
  - [【译】探索基于 WebGL 的动画与交互（案例学习）](https://github.com/JChehe/blog/issues/11)
  - [《Web API 的设计与开发》读书笔记](https://github.com/JChehe/blog/issues/10)
  - [Three.js 现学现卖](https://github.com/JChehe/blog/issues/14)
