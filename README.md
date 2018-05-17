@@ -2,6 +2,7 @@
 
 ## 新博文（存档在 issues 中）
  
+ - [【译】如何更好地组织 React 项目](https://github.com/JChehe/blog/issues/19)
  - [动画：从 AE 到 Web](https://github.com/JChehe/blog/issues/18)
  - [【译】使用 Fullscreen API 全屏展示内容](https://github.com/JChehe/blog/issues/17)
  - [【译】Grid 完整指南](https://github.com/JChehe/blog/issues/16)
