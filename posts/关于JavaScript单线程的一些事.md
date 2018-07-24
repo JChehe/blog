@@ -190,11 +190,11 @@ $('#do').on('click', function() {
 });
 
 function long() {
-  var result = 0
+  var result = 0;
   for (var i = 0; i<1000; i++){
     for (var j = 0; j<1000; j++){
       for (var k = 0; k<1000; k++){
-        result = result + i+j+k
+        result = result + i+j+k;
       }
     } 
   }
@@ -272,7 +272,7 @@ var counter = 0;
 
 ```
 document.onclick = function() {
-  console.log("click")
+  console.log("click");
 }
 
 for(var i = 0; i< 100000000; i++);
