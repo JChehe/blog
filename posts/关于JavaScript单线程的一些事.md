@@ -47,12 +47,12 @@
 ```
 function f(b) {
   var a = 12;
-  return a+b+35;
+  return a + b + 35;
 }
 
 function g(x) {
   var m = 4;
-  return f(m*x);
+  return f(m * x);
 }
 
 g(21);
