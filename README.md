@@ -1,7 +1,15 @@
 > 更多精彩文章会首发于 [凹凸实验室](https://aotu.io/) 📣📣📣
 
 ## 新博文（存档在 issues 中）
- 
+
+ - [【译】使用 CSS 分层动画实现曲线运动](https://github.com/JChehe/blog/issues/27)
+ - [【译】圆形填充—Circle Packing](https://github.com/JChehe/blog/issues/26)
+ - [【译】一二三—Un Deux Trois](https://github.com/JChehe/blog/issues/25)
+ - [【译】三角网格—Triangular mesh](https://github.com/JChehe/blog/issues/24)
+ - [【译】无序方块—Cubic Disarray](https://github.com/JChehe/blog/issues/23)
+ - [【译】欢乐分队—Joy Division](https://github.com/JChehe/blog/issues/22)
+ - [【译】瓷砖线—Tiled Lines](https://github.com/JChehe/blog/issues/21)
+ - [【译】基于 Vue-router 实现用户认证](https://github.com/JChehe/blog/issues/20)
  - [【译】如何更好地组织 React 项目](https://github.com/JChehe/blog/issues/19)
  - [动画：从 AE 到 Web](https://github.com/JChehe/blog/issues/18)
  - [【译】使用 Fullscreen API 全屏展示内容](https://github.com/JChehe/blog/issues/17)
