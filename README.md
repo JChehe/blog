@@ -2,6 +2,8 @@
 
 ## 新博文（存档在 issues 中）
 
+ - [正态分布 — 更真实地还原动画](https://github.com/JChehe/blog/issues/29)
+ - [【译】叶子——可互动的 Web 玩具](https://github.com/JChehe/blog/issues/28)
  - [【译】使用 CSS 分层动画实现曲线运动](https://github.com/JChehe/blog/issues/27)
  - [【译】圆形填充—Circle Packing](https://github.com/JChehe/blog/issues/26)
  - [【译】一二三—Un Deux Trois](https://github.com/JChehe/blog/issues/25)
