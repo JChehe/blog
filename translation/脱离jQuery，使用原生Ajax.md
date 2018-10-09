@@ -1,6 +1,6 @@
 # 脱离jQuery，使用原生Ajax 
 
-标签： Ajax translate
+标签： Ajax translation
 
 ---
 
