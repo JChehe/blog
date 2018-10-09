@@ -1,6 +1,6 @@
 # JavaScript 模块【Part 2】：模块打包
 
-标签： JavaScript module ES6 translate
+标签： JavaScript module ES6 translation
 
 ---
 

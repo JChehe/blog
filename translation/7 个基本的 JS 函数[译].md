@@ -1,6 +1,6 @@
 # 7 个基本的 JS 函数
 
-标签： JavaScript translate
+标签： JavaScript translation
 
 ---
 

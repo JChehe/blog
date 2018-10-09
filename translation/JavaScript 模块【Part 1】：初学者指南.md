@@ -1,6 +1,6 @@
 # JavaScript 模块【Part 1】：初学者指南
 
-标签： JavaScript translate module
+标签： JavaScript translation module
 
 ---
 
