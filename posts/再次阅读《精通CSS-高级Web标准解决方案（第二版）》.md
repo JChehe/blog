@@ -78,7 +78,7 @@ IE6的混杂模式下，拥有类似box-sizing:border-box的特性，即指定�
 
 只有普通文档流中，块框的垂直外边距才回发生叠加。行内框、浮动框或绝对（个人认为包括绝对定位和固定定位）定位框之间的外边距不会发生叠加。
 
-####可视化格式模型
+#### 可视化格式模型
 
 CSS中有3种基本的定位机制：普通流、浮动和绝对定位。
 
@@ -173,7 +173,12 @@ a:hover, a:focus, a:active{text-decoration:underline}
     <table summary="I am a Description">
         <caption>表格标题</caption>
     </table>
-　一个table里，tbody 、tfooter只能使用一个，而tbody可以将复杂的表格划分为多个部分。
+　一个table里，thead 、tfooter只能使用一个，而tbody可以将复杂的表格划分为多个部分。
+
+> 这里有三个注意点：  
+1）thead和tfoot在一张表中都只能有一个，而tbody可以有多个。  
+2）tfoot必须出现在tbody前面，这样浏览器在接收主体数据之前，就能渲染表尾，有利于加快表格的显示速度。这一点对大型表格尤其重要。  
+3）thead、tbody和tfoot里面都必须使用tr标签。  
 
 CSS的border-spacing属性可以控制单元格之间的距离。但IE7及以下不支持。因此需要老式但可靠的cellspacing属性（支持IE6和IE7）。严格来说，该属性是表现性的。
 
