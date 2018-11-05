@@ -81,12 +81,12 @@ IE5上的效果，IE6应该也一样。
     
 
 
-  [1]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-baseline.jpg
-  [2]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-jianxi.jpg
-  [3]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-inlineORinline-block.jpg
+  [1]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/nowrap-baseline.jpg
+  [2]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/nowrap-jianxi.jpg
+  [3]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/nowrap-inlineORinline-block.jpg
   [4]: http://www.zhangxinxu.com/wordpress/2015/08/css-deep-understand-vertical-align-and-line-height/
   [5]: http://www.cnblogs.com/fengzheng126/archive/2012/05/18/2507632.html
-  [6]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-GIF.gif
-  [7]: http://7xq7nb.com1.z0.glb.clouddn.com/nowrap-GIF-IE56.gif
+  [6]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/nowrap-GIF.gif
+  [7]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/nowrap-GIF-IE56.gif
   [8]: https://github.com/JChehe/blog
   [9]: http://jchehe.github.io/resume/

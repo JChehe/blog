@@ -405,10 +405,10 @@ OK，让我们将 `1` 改回 `0`，确保测试通过。
   [11]: https://zh.wikipedia.org/wiki/%E8%A2%AB%E6%B5%8B%E7%B3%BB%E7%BB%9F
   [12]: http://chaijs.com/api/assert/
   [13]: http://chaijs.com/api/bdd/
-  [14]: http://7xq7nb.com1.z0.glb.clouddn.com/1mocha-test-results.jpg
-  [15]: http://7xq7nb.com1.z0.glb.clouddn.com/2mochatest-error.jpg
+  [14]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/1mocha-test-results.jpg
+  [15]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/2mochatest-error.jpg
   [16]: https://en.wikipedia.org/wiki/Test-driven_development
   [17]: http://www.sitepoint.com/understanding-module-exports-exports-node-js/
-  [18]: http://7xq7nb.com1.z0.glb.clouddn.com/3running-mocha-in-the-terminal.png
+  [18]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/3running-mocha-in-the-terminal.png
   [19]: http://codeutopia.net/blog/h/subscribe
   [20]: http://codeutopia.net/blog/h/subscribe

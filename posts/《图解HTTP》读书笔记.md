@@ -563,25 +563,25 @@ HTTP不具备必要的安全功能，就拿远程登录时会用到的SSH协议�
 Github地址：[《图解HTTP》读书笔记][24]
 
 
-  [1]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-9.jpg
-  [2]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-10.jpg
-  [3]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-12.jpg
-  [4]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-13.jpg
-  [5]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-14.jpg
+  [1]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-9.jpg
+  [2]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-10.jpg
+  [3]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-12.jpg
+  [4]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-13.jpg
+  [5]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-14.jpg
   [6]: http://fanyi.jobbole.com/14191/
-  [7]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-18.jpg
-  [8]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-24.jpg
-  [9]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-25.jpg
-  [10]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-34.jpg
-  [11]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-35.jpg
-  [12]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-36.jpg
+  [7]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-18.jpg
+  [8]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-24.jpg
+  [9]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-25.jpg
+  [10]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-34.jpg
+  [11]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-35.jpg
+  [12]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-36.jpg
   [13]: https://datatracker.ietf.org/doc/rfc2616/
-  [14]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-68.jpg
-  [15]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-%E4%BB%A3%E7%90%86.png
-  [16]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-184.jpg
+  [14]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-68.jpg
+  [15]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-%E4%BB%A3%E7%90%86.png
+  [16]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-184.jpg
   [17]: https://github.com/fex-team/http2-spec/blob/master/HTTP2%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%E7%89%88%2806-29%29.md
   [18]: https://www.zhihu.com/question/34074946
-  [19]: http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-15.jpg
+  [19]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/graphical-http-15.jpg
   [20]: https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
   [21]: http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html
   [22]: http://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers/417184

@@ -175,6 +175,6 @@ flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 au
   [2]: http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
   [3]: http://www.ruanyifeng.com/blog/2015/07/flex-examples.html
   [4]: http://zhoon.github.io/css3/2014/08/23/flex.html
-  [5]: http://7xq7nb.com1.z0.glb.clouddn.com/flex.png
-  [6]: http://7xq7nb.com1.z0.glb.clouddn.com/justify-content.png
-  [7]: http://7xq7nb.com1.z0.glb.clouddn.com/align-content.png
+  [5]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/flex.png
+  [6]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/justify-content.png
+  [7]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/align-content.png

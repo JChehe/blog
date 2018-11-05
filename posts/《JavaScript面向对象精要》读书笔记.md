@@ -1161,10 +1161,10 @@ JavaScipt 对象的所有属性都是公有的，没有显式的方法指定某�
 ## 总结
 看了两天的书，做了两天的笔记。当然这只是ES5的。过几天 ES6 新书又来了。最后感谢 [异步社区](http://www.epubit.com.cn/) 送我这本好书 [《JavaScript面向对象精要》](http://www.epubit.com.cn/book/details/1798)，让我的前端根基更加稳固，希望自己的前端之路越走越顺。
 
-  [1]: http://7xq7nb.com1.z0.glb.clouddn.com/Object_hash.jpg
-  [2]: http://7xq7nb.com1.z0.glb.clouddn.com/copy_obj.jpg
-  [3]: http://7xq7nb.com1.z0.glb.clouddn.com/prototype.jpg
-  [4]: http://7xq7nb.com1.z0.glb.clouddn.com/%E6%97%A0%E6%A0%87%E9%A2%98.jpg
-  [5]: http://7xq7nb.com1.z0.glb.clouddn.com/obj_constructor_prototype.jpg
-  [6]: http://7xq7nb.com1.z0.glb.clouddn.com/%E5%AF%B9%E8%B1%A1%E7%BB%A7%E6%89%BF.jpg
-  [7]: http://7xq7nb.com1.z0.glb.clouddn.com/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%BB%A7%E6%89%BF.jpg
+  [1]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/Object_hash.jpg
+  [2]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/copy_obj.jpg
+  [3]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/prototype.jpg
+  [4]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/%E6%97%A0%E6%A0%87%E9%A2%98.jpg
+  [5]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/obj_constructor_prototype.jpg
+  [6]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/%E5%AF%B9%E8%B1%A1%E7%BB%A7%E6%89%BF.jpg
+  [7]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%BB%A7%E6%89%BF.jpg
