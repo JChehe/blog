@@ -1343,7 +1343,7 @@ function Person(name){
 
 ## 总结
 
-看了两天的书，做了两天的笔记。当然这只是 ES5 的。过几天 ES6 新书又来了。最后感谢 [异步社区](http://www.epubit.com.cn/) 送我这本好书 [《JavaScript面向对象精要》](http://www.epubit.com.cn/book/details/1798)，让我的前端根基更加稳固，希望自己的前端之路越走越顺。
+看了两天的书，做了两天的笔记。当然这只是 ES5 的。过几天 ES6 新书又来了。最后感谢 [异步社区](http://www.epubit.com.cn/) 送我这本好书 [《JavaScript 面向对象精要》](http://www.epubit.com.cn/book/details/1798)，让我的前端根基更加稳固，希望自己的前端之路越走越顺。
 
   [1]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/Object_hash.jpg
   [2]: https://blog-1251477229.cos.ap-chengdu.myqcloud.com/others/copy_obj.jpg
