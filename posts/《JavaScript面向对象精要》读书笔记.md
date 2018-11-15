@@ -1002,7 +1002,9 @@ Object.prototype 一般有以下几个方法
 
 ### 5.2 继承
 
-对象继承是最简单的继承类型。你唯需要做的是指定哪个对象是新对象的 `[[Prototype]]`。对象字面量形式会隐式指定 `Object.prototype` 为其 `[[Protoype]]`。当然我们可以用 ES5 的 `Object.create()` 方法显式指定。该方法接受两个参数，第一个是新对象的的 `[[Prototype]]` 所指向的对象。第二个参数是可选的一个属性描述对象，其格式与 `Object.definePrototies()`一样。
+对象继承是最简单的继承类型。你唯需要做的是指定哪个对象是新对象的 `[[Prototype]]`。对象字面量形式会隐式指定 `Object.prototype` 为其 `[[Protoype]]`。当然我们可以用 ES5 的 `Object.create()` 方法显式指定。该方法接受两个参数，第一个是新对象的 `[[Prototype]]` 所指向的对象。第二个参数是可选的一个属性描述对象，其格式与 `Object.definePrototies()`一样。
+
+> Object.create 与 new 创建对象的区别：http://frontendnotes.net/what-the-difference-between-object-create-and-new-keyword/
 
 ```js
 var obj = {
