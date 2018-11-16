@@ -6,6 +6,14 @@
 
 首发地址：[码农网《细说JavaScript单线程的一些事》](http://www.codeceo.com/article/javascript-threaded.html)
 
+## 建议
+
+建议不要看本文，看以下三篇文章：
+
+ - [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.im/post/59e85eebf265da430d571f89)
+ - [Chrome: Multi-process Architecture](https://blog.chromium.org/2008/09/multi-process-architecture.html)
+ - [Is multithreading concurrent or parallel?](https://www.quora.com/Is-multithreading-concurrent-or-parallel)
+
 最近被同学问道 JavaScript 单线程的一些事，我竟回答不上。好吧，感觉自己的 JavaScript 白学了。下面是我这几天整理的一些关于 JavaScript 单线程的一些事。
 
 ## 首先，说下为什么 JavaScript 是单线程？
