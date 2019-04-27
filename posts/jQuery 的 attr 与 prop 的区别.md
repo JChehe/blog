@@ -68,9 +68,7 @@ attributes 与 properties 之间的差异在特定情况下会变得尤为重要
 | elem.checked 	| true (Boolean) 	| 会随着 checkbox 状态作出相应改变 	|
 | $(elem).prop("checked") 	| true (Boolean) 	| 会随着 checkbox 状态作出相应改变 	|
 | elem.getAttribute("checked") 	| "checked" (String) 	| checkbox 的初始状态；并且不会随着 checkbox 的状态而改变。 	|
-| $(elem).attr("checked") (1.6) 	| "checked" (String) 	| checkbox 的初始状态；并且不会随着 checkbox 的状态而改变。 	|
-| $(elem).attr("checked") (1.6.1+) 	| "checked" (String) 	| ~~会随着 checkbox 状态而作出相应改变（与jQuery文档描述不一样，我用jQuery 1.12.1 测试，都是返回 “checked”，并不会随着checkbox的改变而改变）。~~(此处会随着版本的不同而有所不同，[1.7.1版本，```document.getElementById("check").getAttribute("checked")```不会随着checkbox的改变而改变；```$("#check").attr("checked")```会随着checkbox的改变而改变])|
-| $(elem).attr("checked") (1.6之前版本) 	| true (Boolean) 	| true (Boolean) 会随着 checkbox 状态作出相应改变。 	|
+| $(elem).attr("checked") 	| "checked" (String) 	| （与jQuery文档描述不一样，1.9.0 及之后的版本，都是返回 “checked”，并不会随着 checkbox 的改变而改变），即 1.9.0 之前的版本会随着 checkbox 的改变而改变。|
 
 根据 W3C forms（表单） 规范，`checked` 是一个值为 boolean 的 attribute，这意味着当该 attribute 存在（无论值是什么），其对应的 property 都是 true。例如，该 attribute 没赋值或设为空字符串，甚至设为 `"false"`。这同样适用于所有值为 boolean 的 attributes。
 
