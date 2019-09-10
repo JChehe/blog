@@ -462,10 +462,10 @@ var person = {
 }
 
 console.log("name" in person); // true
-console.log(person.hasOwnproperty("name")); // true
+console.log(person.hasOwnProperty("name")); // true
 
 console.log("toString" in person); // true
-console.log(person.hasOwnproperty("toString")); // false
+console.log(person.hasOwnProperty("toString")); // false
 ```
     
 ### 3.3 删除属性
