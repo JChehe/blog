@@ -462,7 +462,7 @@ var person = {
 }
 
 console.log("name" in person); // true
-console.log(person.hasOwnpropert("name")); // true
+console.log(person.hasOwnproperty("name")); // true
 
 console.log("toString" in person); // true
 console.log(person.hasOwnproperty("toString")); // false
