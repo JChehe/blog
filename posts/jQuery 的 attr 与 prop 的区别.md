@@ -19,7 +19,7 @@
 
 拥有两个 attributes。
 
-一旦浏览器解析该代码，HTMLInputElement 对象就会被创建，并且该对象会拥有很多 peoperties，如：accept、accessKey、align、alt、attributes、autofocus、baseURI、checked、childElementCount、ChildNodes、children、classList、className、clientHeight 等等。
+一旦浏览器解析该代码，HTMLInputElement 对象就会被创建，并且该对象会拥有很多 properties，如：accept、accessKey、align、alt、attributes、autofocus、baseURI、checked、childElementCount、ChildNodes、children、classList、className、clientHeight 等等。
 
 对于某个 DOM 节点对象，properties 是该对象的所有属性，而 attributes 是该对象对应元素(标签)的属性。
 
