@@ -109,7 +109,7 @@
   [14]: https://github.com/JChehe/blog/issues/51
   [15]: https://github.com/JChehe/blog/issues/50
   [16]: https://github.com/JChehe/blog/issues/10
-  [17]: https://github.com/JChehe/blog/issues/47
+  [17]: https://jchehe.gitbook.io/mysql_data_types_cn/
   [18]: https://github.com/JChehe/blog/issues/40
   [19]: https://github.com/JChehe/blog/issues/8
   [20]: https://github.com/JChehe/blog/issues/33
